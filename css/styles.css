@@ -1,235 +1,218 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /**CSS DA PAGINA CURSOS**/
 
-a{
-    color: #38017A;
-    text-decoration: none;
-    font-size: 16px;
+a {
+  color: #38017a;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-body{
-    font-family: 'Raleway', sans-serif;
-    color: #333333;
-
+body {
+  font-family: "Raleway", sans-serif;
+  color: #333333;
 }
-#header{
-    background-color: white;
-    position: sticky;
-    top:0;
+#header {
+  background-color: white;
+  position: sticky;
+  top: 0;
 }
-#header nav{
-    color: #38017A;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    
-   
-    
+#header nav {
+  color: #38017a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1em 0 0.5em #333333;
 }
-#header nav img{
-    width: 322px;
+#header nav img {
+  width: 322px;
 }
 
-#btn_banner a{
-    color: white;
+#btn_banner a {
+  color: white;
 }
-.menu{
-    display: flex;
-    justify-content: space-between;
-    
-
+.menu {
+  display: flex;
+  justify-content: space-between;
 }
-.menu li{
-    list-style: none;
-    margin:60px;
-
-    
+.menu li {
+  list-style: none;
+  margin: 60px;
 }
 
-.btn_login{
-    color: white;
-    background-color: #38017A;
-    padding: 10px 16px;
-    border-style: none;
-    border-radius: 8px;
+.btn_login {
+  color: white;
+  background-color: #38017a;
+  padding: 10px 16px;
+  border-style: none;
+  border-radius: 8px;
 }
 
-#banner{
-    width: 100%;
-    min-height: calc(100vh - 142px);
-    background-color: rgba(56, 1, 122, 0.3);
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+#banner {
+  width: 100%;
+  min-height: calc(100vh - 142px);
+  background-color: rgba(56, 1, 122, 0.3);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
-#banner h1{
-    margin-top: 32vh;
-    font-size: 64px;
-}
-
-#btn_banner, #btn_banner2{
-    
-    
-    margin-top: 20px;
-    color:white;
-    background-color: #38017A;
-    padding: 16px 48px;
-    border-radius: 8px;
-    border-style:solid;
-    border-color: #38017A;;
-
+#banner h1 {
+  margin-top: 32vh;
+  font-size: 64px;
 }
 
-#btn_banner2{
-    background-color: rgba(56, 1, 122, 0.3) ;
-    color:#38017A;
-    border-style: solid;
-    border-color: #38017A; ;
+#btn_banner,
+#btn_banner2 {
+  margin-top: 20px;
+  color: white;
+  background-color: #38017a;
+  padding: 16px 48px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #38017a;
 }
 
-
-
-
-#banner h3{
-    margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    font-weight: 400;
+#btn_banner2 {
+  background-color: rgba(56, 1, 122, 0.3);
+  color: #38017a;
+  border-style: solid;
+  border-color: #38017a;
 }
 
-#ano1{
-    padding-top: 130px ;
-}
-#ano1 h2{
-    font-size: 64px;
-    text-align: center;
-    margin-bottom: 15px;
-    
+#banner h3 {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
 }
 
-#primeiro{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:25px;
-    text-align: center;
-    width: 100%;
+#ano1 {
+  padding-top: 130px;
+}
+#ano1 h2 {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-#segundo{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:25px;
-    text-align: center;
-    width: 100%;
+#primeiro {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  text-align: center;
+  width: 100%;
 }
 
-#cards{
-    object-fit: cover; 
-    padding:15px;
+#segundo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  text-align: center;
+  width: 100%;
 }
 
-#cards img{
-    width: 100%;
+#cards {
+  object-fit: cover;
+  padding: 15px;
 }
 
-#cards #hash{
-    margin-top: 5px;
-    font-size: 16px;
-    text-align: left;
-
+#cards img {
+  width: 100%;
 }
 
-#cards h3{
-    margin-top: 10px;
-    font-size: 24px;
-    text-align: left;
+#cards #hash {
+  margin-top: 5px;
+  font-size: 16px;
+  text-align: left;
 }
 
-#cards > #corpo{
-    text-align: justify;
-    font-weight: 300;
+#cards h3 {
+  margin-top: 10px;
+  font-size: 24px;
+  text-align: left;
 }
 
-#mais{
-    margin-top: 20px;
-    width: 100%;
-    color: white;
-    background-color: #38017A;
-    border-radius: 8px;
-    padding: 16px 48px;
-    border-style: solid;
-    border-color: #38017A;
+#cards > #corpo {
+  text-align: justify;
+  font-weight: 300;
 }
 
-#footer{
-    background-color: #38017A;
-    padding: 100px;
-    text-align: center;
+#mais {
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  background-color: #38017a;
+  border-radius: 8px;
+  padding: 16px 48px;
+  border-style: solid;
+  border-color: #38017a;
 }
 
-#footer img{
-    width: 200px;
+#footer {
+  background-color: #38017a;
+  padding: 100px;
+  text-align: center;
 }
 
-#footer p{
-    margin-top: 10px;
-    color: white;
+#footer img {
+  width: 200px;
+}
 
+#footer p {
+  margin-top: 10px;
+  color: white;
 }
 
 /**CSS DOS ALUNOS**/
-.titulo{
-    text-align: center;
-    font-size: 48px;
-    margin-bottom: 20px;
+.titulo {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 20px;
 }
 
 #corpo_alunos {
-    padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:50px;
-    text-align: center;
-    width: 100%;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  text-align: center;
+  width: 100%;
 }
 
-#corpo_alunos img{
-    width: 300px;
-    border-radius: 50%;
+#corpo_alunos img {
+  width: 300px;
+  border-radius: 50%;
 }
 
-#cardAluno{
-    background-color: rgba(56, 1, 122, 0.3) ;
-    border-radius: 8px;
-    padding: 15px;
+#cardAluno {
+  background-color: rgba(56, 1, 122, 0.3);
+  border-radius: 8px;
+  padding: 15px;
 }
 
-#cardAluno h4{
-    font-size: 24px;
+#cardAluno h4 {
+  font-size: 24px;
 }
 
-#cardAluno p{
-    margin-top: 10px;
-    margin-bottom: 10px;
+#cardAluno p {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-#cardAluno #git img{
-    width: 50px;
+#cardAluno #git img {
+  width: 50px;
 }
 
-#cardAluno #link img{
-    margin-left: 50px;
-    width: 50px;
+#cardAluno #link img {
+  margin-left: 50px;
+  width: 50px;
 }
 
 /**RESPONSIVIDADE**/
-@media (min-width: 320px) and (max-width: 1200px){
-
-    
+@media (min-width: 320px) and (max-width: 1200px) {
 }
