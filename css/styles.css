@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-/**CONTEUDOS NÃO VISIVEIS**/
-
-#segundo{
-    display:none;
-}
-
 /**CSS DA PAGINA CURSOS**/
 
 a{
@@ -82,6 +76,7 @@ body{
 
 #btn_banner, #btn_banner2{
     
+    
     margin-top: 20px;
     color:white;
     background-color: #38017A;
@@ -145,21 +140,25 @@ body{
 }
 
 #cards #hash{
+    margin-top: 5px;
     font-size: 16px;
     text-align: left;
 
 }
 
 #cards h3{
+    margin-top: 10px;
     font-size: 24px;
     text-align: left;
 }
 
 #cards > #corpo{
     text-align: justify;
+    font-weight: 300;
 }
 
 #mais{
+    margin-top: 20px;
     width: 100%;
     color: white;
     background-color: #38017A;
@@ -167,6 +166,22 @@ body{
     padding: 16px 48px;
     border-style: solid;
     border-color: #38017A;
+}
+
+#footer{
+    background-color: #38017A;
+    padding: 100px;
+    text-align: center;
+}
+
+#footer img{
+    width: 200px;
+}
+
+#footer p{
+    margin-top: 10px;
+    color: white;
+
 }
 
 /**CSS DOS ALUNOS**/
@@ -211,4 +226,10 @@ body{
 #cardAluno #link img{
     margin-left: 50px;
     width: 50px;
+}
+
+/**RESPONSIVIDADE**/
+@media (min-width: 320px) and (max-width: 1200px){
+
+    
 }
