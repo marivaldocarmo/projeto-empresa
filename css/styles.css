@@ -3,3 +3,135 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a{
+    color: #38017A;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+
+}
+
+#header nav{
+    color: #38017A;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+   
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.menu li{
+    list-style: none;
+    margin:60px;
+
+    
+}
+
+.btn_login{
+    color: white;
+    background-color: #38017A;
+    padding: 10px 16px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+#banner{
+    background-color: rgba(56, 1, 122, 0.3);
+    text-align: center;
+}
+
+#btn_banner, #btn_banner2{
+    
+    margin-top: 20px;
+    color:white;
+    background-color: #38017A;
+    padding: 16px 48px;
+    border-radius: 8px;
+}
+
+#btn_banner2{
+    background-color: rgba(56, 1, 122, 0.3) ;
+    color:#38017A;
+    border-style: solid;
+    border-color: #38017A; ;
+}
+
+#banner{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  
+    
+    width: 100%;
+    min-height: calc(100vh - 142px);
+
+}
+#banner h1{
+    
+    margin-top: 32vh;
+    font-size: 64px;
+}
+
+#banner h3{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#ano1 h2{
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#primeiro{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:25px;
+    text-align: center;
+    width: 100%;
+}
+
+#cards{
+    object-fit: cover; 
+    padding:15px;
+}
+
+#cards img{
+    width: 100%;
+}
+
+#cards #hash{
+    font-size: 16px;
+    text-align: left;
+
+}
+
+#cards h3{
+    font-size: 24px;
+    text-align: left;
+}
+
+#cards > #corpo{
+    text-align: justify;
+}
+
+#mais_ma, #mais_pi, #mais_ii, #mais_fe, #mais_bd, #mais_la{
+    width: 100%;
+    color: white;
+    background-color: #38017A;
+    border-radius: 8px;
+    padding: 16px 48px;
+}
