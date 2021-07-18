@@ -71,8 +71,6 @@ body {
 
 #footer {
   background-color: #38017a;
-  /* MUDAMOS O TAMANHO DO FOOTER DE 100PX PARA 50PX
-  SERÁ NECESSÁIRO FAZER A MUDANÇA PARA OS OUTROS OU NÃO? COM CRTZ SIM, MAS QUAL VOCÊS QUEREM? */
   padding: 100px;
   text-align: center;
 }
@@ -112,3 +110,24 @@ body {
   z-index: -1;
 }
 
+/* CSS setas */
+
+#setas {
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+  position: relative;
+  padding: 20px;
+  bottom: 104px;
+  margin: 0px 0px 0px 0px;
+}
+
+#setas img {
+  width: 36px;
+  height: 40px;
+}
+
+#setas div
+{
+  margin-left: 20px;
+}
