@@ -339,7 +339,7 @@ body {
 @media (min-width: 758px) and (max-width: 782px) {
   /*index.html*/
   a{
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .menu li {
@@ -369,7 +369,7 @@ body {
   
   /*index.html*/
   a{
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .menu li {
@@ -404,7 +404,7 @@ body {
   
   /*index.html*/
   a{
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .menu li {
@@ -448,9 +448,9 @@ body {
 @media (min-width: 586px) and (max-width: 620px) {
   /*index.html*/
   a{
-    font-size: 14px;
+    font-size: 10px;
   }
-  
+
   .menu li {
     margin: 7px;
   }
