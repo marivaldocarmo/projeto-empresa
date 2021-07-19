@@ -57,7 +57,10 @@ body {
 #banner {
   width: 100%;
   min-height: calc(100vh - 142px);
-  background-color: rgba(56, 1, 122, 0.3);
+ background-color: rgba(56, 1, 122, 0.3);
+  background-image: url('https://www.showmetech.com.br/wp-content/uploads//2018/11/conheca-cursos-de-programacao-gratis-1132x600.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   display: flex;
   flex-direction: column;
