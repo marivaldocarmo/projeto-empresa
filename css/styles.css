@@ -227,10 +227,19 @@ body {
 /**RESPONSIVIDADE**/
 
 
-
+@media (min-width: 1083px) and (max-width: 1620px) {
+  /*index.html*/
+  a{
+    font-size: 14px;
+  }
+}
 
 @media (min-width: 1023px) and (max-width: 1182px) {
   /*index.html*/
+  a{
+    font-size: 14px;
+  }
+
   .menu li {
     margin: 40px;
   }
@@ -248,6 +257,10 @@ body {
 
 @media (min-width: 943px) and (max-width: 1022px) {
   /*index.html*/
+  a{
+    font-size: 14px;
+  }
+
   .menu li {
     margin: 30px;
   }
@@ -269,6 +282,10 @@ body {
 
 @media (min-width: 863px) and (max-width: 942px) {
   /*index.html*/
+  a{
+    font-size: 14px;
+  }
+
   .menu li {
     margin: 20px;
   }
@@ -291,6 +308,10 @@ body {
 
 @media (min-width: 783px) and (max-width: 862px) {
   /*index.html*/
+  a{
+    font-size: 14px;
+  }
+
   .menu li {
     margin: 10px;
   }
@@ -317,6 +338,10 @@ body {
 
 @media (min-width: 758px) and (max-width: 782px) {
   /*index.html*/
+  a{
+    font-size: 14px;
+  }
+
   .menu li {
     margin: 10px;
   }
@@ -343,6 +368,10 @@ body {
 @media (min-width: 711px) and (max-width: 757px) {
   
   /*index.html*/
+  a{
+    font-size: 14px;
+  }
+
   .menu li {
     margin: 10px;
   }
@@ -374,6 +403,10 @@ body {
 @media (min-width: 621px) and (max-width: 710px) {
   
   /*index.html*/
+  a{
+    font-size: 14px;
+  }
+
   .menu li {
     margin: 7px;
   }
@@ -414,6 +447,10 @@ body {
 
 @media (min-width: 586px) and (max-width: 620px) {
   /*index.html*/
+  a{
+    font-size: 14px;
+  }
+  
   .menu li {
     margin: 7px;
   }
