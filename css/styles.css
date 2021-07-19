@@ -16,6 +16,14 @@ body {
   font-family: "Raleway", sans-serif;
   color: #333333;
 }
+
+#banner{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
 #header {
   z-index: 5;
   background-color: white;
@@ -55,9 +63,10 @@ body {
 }
 
 #banner {
+  color: white;
   width: 100%;
   min-height: calc(100vh - 142px);
- background-color: rgba(56, 1, 122, 0.3);
+  background-color: rgba(56, 1, 122, 0.3);
   background-image: url('https://www.showmetech.com.br/wp-content/uploads//2018/11/conheca-cursos-de-programacao-gratis-1132x600.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +94,7 @@ body {
 
 #btn_banner2 {
   background-color: rgba(56, 1, 122, 0.3);
-  color: #38017a;
+  color: white;
   border-style: solid;
   border-color: #38017a;
 }
