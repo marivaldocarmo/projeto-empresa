@@ -92,3 +92,10 @@
   width: 90%;
   margin-top: 5px;
 }
+
+header{
+    margin-top: -20px;
+}
+footer{
+    margin-bottom: -20px;
+}
